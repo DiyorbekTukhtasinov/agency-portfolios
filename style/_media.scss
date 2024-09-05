@@ -1,0 +1,31 @@
+@media (max-width: 570px) {
+  .container {
+    max-width: 100%;
+  }
+  .nav {
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &__btn,
+    &__list {
+      display: none;
+    }
+  }
+
+  .burger__btn {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hero h1 {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: center;
+  }
+  .phone__display {
+    display: flex;
+  }
+}
